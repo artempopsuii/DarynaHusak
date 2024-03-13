@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Merriweather:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Mono&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Playfair Display", Times, serif;
+    background-color: white;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 5px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: -20px 0 0;
+}
+
+nav li a:hover {
+    color: #2f4f4f;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px #2f4f4f;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    padding-right: 100px;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+.mission {
+    background-image: url(img/backgroung.jpg);
+    height: 400px;
+    display: flex;
+    padding-top: 35px;
+}
+
+h2, h4 {
+    display: block;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.mission .content {
+    margin: auto;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+#portfolio h2 {
+    margin-top: 30px;
+}
+
+.companies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.companies img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px #B7AD9F;
+}
+
+figcaption {
+    text-align: center;
+}
+
+figure {
+    transition: transform 0.3s ease;
+}
+
+.companies figure:hover {
+    transform: scale(1.2);
+}
+
+.me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(img/IMG_9660.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.me img {
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.me p {
+    margin-top: -30px;
+}
+
+footer nav {
+    border-top: 2px solid black;
+}
+
+footer p {
+    text-align: center;
+    display: block;
+    font-size: 0.8em;
+    transition: transform 0.3s ease;
+    width: 500px;
+    margin: 0 auto;
+}
+
+footer p:hover {
+    transform: scale(1.1);
+}
+
+.copyright {
+    display: block;
+    text-align: center;
+    font-size: 0.7em;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 30px 0 40px;
+}
+
+.social-container img {
+    width: 50px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.social-container img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 2px gray);
+}
